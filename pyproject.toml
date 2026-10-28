@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-connect-doctor"
+version = "0.1.0"
+description = "Local diagnostics for AI development environments"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.scripts]
+ai-connect-doctor = "ai_connect_doctor.__main__:main"
